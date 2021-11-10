@@ -1,0 +1,20 @@
+{
+  "name": "webvld-uat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Korakod .P",
+  "license": "MIT",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^1.4.3",
+    "cypress": "^8.7.0",
+    "cypress-file-upload": "^5.0.6",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "cypress-plugin-snapshots": "^1.4.4"
+  }
+}

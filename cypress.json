@@ -1,0 +1,12 @@
+{
+  "chromeWebSecurity": false,
+  "projectId": "i42a61",
+  "env": {
+    "webvld_uat": "https://validation-uat.teda.th/webportal/v2/#/validate"
+  },
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ]
+  
+}

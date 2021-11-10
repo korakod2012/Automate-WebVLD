@@ -1,0 +1,546 @@
+<rsm:TaxInvoice_CrossIndustryInvoice xmlns:ram="urn:etda:uncefact:data:standard:TaxInvoice_ReusableAggregateBusinessInformationEntity:2" xmlns:rsm="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2 file:../data/standard/TaxInvoice_CrossIndustryInvoice_2p0.xsd">
+<rsm:ExchangedDocumentContext>
+<ram:GuidelineSpecifiedDocumentContextParameter>
+<ram:ID schemeAgencyID="ETDA" schemeVersionID="v2.0">ER3-2560</ram:ID>
+</ram:GuidelineSpecifiedDocumentContextParameter>
+</rsm:ExchangedDocumentContext>
+<rsm:ExchangedDocument>
+<ram:ID>IV2017110009</ram:ID> 
+<ram:Name>ใบกำกับภาษี</ram:Name>
+<ram:TypeCode>388</ram:TypeCode>
+<ram:IssueDateTime>2017-11-28T12:00:00.0</ram:IssueDateTime>
+<ram:CreationDateTime>2017-11-28T12:00:00.0</ram:CreationDateTime>
+<ram:IncludedNote>
+<ram:Subject>หมายเหตุ</ram:Subject>
+</ram:IncludedNote>
+</rsm:ExchangedDocument>
+<rsm:SupplyChainTradeTransaction>
+<ram:ApplicableHeaderTradeAgreement>
+<ram:SellerTradeParty>
+<ram:Name>Stream I.T. Consulting Ltd.</ram:Name>
+<ram:SpecifiedTaxRegistration>
+<ram:ID schemeID="TXID">010554106923700000</ram:ID>
+</ram:SpecifiedTaxRegistration>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>10120</ram:PostcodeCode>
+<ram:BuildingName>Q.House Sathorn Bldg.</ram:BuildingName>
+<ram:LineOne>7th Floor South Sathorn Rd. Tungmahamek</ram:LineOne>
+<ram:LineTwo>Sathorn Bangkok</ram:LineTwo>
+<ram:CityName>1028</ram:CityName>
+<ram:CitySubDivisionName>102803</ram:CitySubDivisionName>
+<ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+<ram:CountrySubDivisionID>10</ram:CountrySubDivisionID>
+<ram:BuildingNumber>11</ram:BuildingNumber>
+</ram:PostalTradeAddress>
+</ram:SellerTradeParty>
+<ram:BuyerTradeParty>
+<ram:Name>ธนาคารทหารไทย จำกัด (มหาชน)</ram:Name>
+<ram:SpecifiedTaxRegistration>
+<ram:ID schemeID="TXID">010753700001700000</ram:ID>
+</ram:SpecifiedTaxRegistration>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>10120</ram:PostcodeCode>
+<ram:LineOne>3000 ถนนพหลโยธิน แขวงจอมพล เขตจตุจักร กรุงเทพฯ 10900   </ram:LineOne>
+<ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+</ram:PostalTradeAddress>
+</ram:BuyerTradeParty>
+</ram:ApplicableHeaderTradeAgreement>
+<ram:ApplicableHeaderTradeDelivery>
+<ram:ShipToTradeParty>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>10120</ram:PostcodeCode>
+<ram:LineOne>3000 ถนนพหลโยธิน แขวงจอมพล เขตจตุจักร กรุงเทพฯ 10900   </ram:LineOne>
+<ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+</ram:PostalTradeAddress>
+</ram:ShipToTradeParty>
+</ram:ApplicableHeaderTradeDelivery>
+<ram:ApplicableHeaderTradeSettlement>
+<ram:InvoiceCurrencyCode listID="ISO 4217 3A">THB</ram:InvoiceCurrencyCode>
+<ram:ApplicableTradeTax>
+<ram:TypeCode>VAT</ram:TypeCode>
+<ram:CalculatedRate>7</ram:CalculatedRate>
+<ram:BasisAmount>181604.75</ram:BasisAmount>
+<ram:CalculatedAmount>12712.33</ram:CalculatedAmount>
+</ram:ApplicableTradeTax>
+<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+<ram:LineTotalAmount>181604.75</ram:LineTotalAmount>
+<ram:AllowanceTotalAmount>0</ram:AllowanceTotalAmount>
+<ram:TaxBasisTotalAmount>181604.75</ram:TaxBasisTotalAmount>
+<ram:TaxTotalAmount>12712.33</ram:TaxTotalAmount>
+<ram:GrandTotalAmount>194317.08</ram:GrandTotalAmount>
+</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+</ram:ApplicableHeaderTradeSettlement>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>1</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>2</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>3</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>4</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>5</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>6</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>7</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>8</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>9</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>10</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>11</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.73</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.73</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.73</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.09</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:IncludedSupplyChainTradeLineItem> 
+<ram:AssociatedDocumentLineDocument> 
+<ram:LineID>12</ram:LineID>
+</ram:AssociatedDocumentLineDocument> 
+<ram:SpecifiedTradeProduct> 
+<ram:ID>MA-80-01-001</ram:ID>
+<ram:Name>MA Local - Hardware Mainternance</ram:Name>
+</ram:SpecifiedTradeProduct> 
+<ram:SpecifiedLineTradeAgreement> 
+<ram:GrossPriceProductTradePrice> 
+<ram:ChargeAmount>15133.72</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice> 
+</ram:SpecifiedLineTradeAgreement> 
+<ram:SpecifiedLineTradeDelivery> 
+<ram:BilledQuantity unitCode="Unit">1</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery> 
+<ram:SpecifiedLineTradeSettlement> 
+<ram:ApplicableTradeTax> 
+<ram:TypeCode>VAT</ram:TypeCode> 
+<ram:CalculatedRate>7</ram:CalculatedRate> 
+<ram:BasisAmount>15133.72</ram:BasisAmount>
+<ram:CalculatedAmount>1059.36</ram:CalculatedAmount>
+</ram:ApplicableTradeTax> 
+<ram:SpecifiedTradeAllowanceCharge> 
+<ram:ChargeIndicator>false</ram:ChargeIndicator> 
+<ram:ActualAmount>0</ram:ActualAmount>
+</ram:SpecifiedTradeAllowanceCharge> 
+<ram:SpecifiedTradeSettlementLineMonetarySummation> 
+<ram:TaxTotalAmount>1059.36</ram:TaxTotalAmount>
+<ram:NetLineTotalAmount currencyID="THB">15133.72</ram:NetLineTotalAmount> 
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">16193.08</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation> 
+</ram:SpecifiedLineTradeSettlement> 
+</ram:IncludedSupplyChainTradeLineItem>
+</rsm:SupplyChainTradeTransaction>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-7aead2ed-4acd-4fe3-8d50-f7a849717978">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"></ds:SignatureMethod>
+<ds:Reference Id="xmldsig-7aead2ed-4acd-4fe3-8d50-f7a849717978-ref0" URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></ds:DigestMethod>
+<ds:DigestValue>GjOomi1zouNd8Cmk4xY+Uft1/dmNwTC5YKNKzJft4uNu/K8aqEFlNH54K9YvXg+sMngKtL3IgVMq
+rD+UvqZ40Q==</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-7aead2ed-4acd-4fe3-8d50-f7a849717978-signedprops">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></ds:DigestMethod>
+<ds:DigestValue>7mQnYe0nl72wrEIw5QmGfCan/Nw6jCk41MVLbe+pmG1HX9crM83SX71E2rFvE3tFmRZ8mM0xXUeF
+xeBrMizs+w==</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-7aead2ed-4acd-4fe3-8d50-f7a849717978-sigvalue">
+ERFRNVuPvgTbw+gfHRij+icvxkACar1xN5GY2q0XSVh5uenk2YOQXQMm8odk6oCjSHn8JcGrAemY
++RqKXPFUnl+jNUBXNc5i9lZzVE1xL0y6eMeInm6VOr/CQ3xxmm6MFmG33QGnENIXu3rCDakS4LAK
+ehkzP5k4l/OvB5/Q3K8gNvakH8zm8aXOPvtk5AzXGVkOGTc0eaA6I35vFLLDRkBVAFEXo/OMIP3M
+XWLnKhp5o4lY2q3mUzSp7JUnFxTFDC6j+EDB6NI9FOiFmt7DtHVXV2FCXOn1k6mYjoNUKjHoF6Zz
+jYMXSGEr/QBEHzGZ20lMc/wLbqwboQYFcMQHkQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIG3jCCBMagAwIBAgIIF5EJJSu3SEMwDQYJKoZIhvcNAQELBQAwVzEeMBwGA1UEAwwVVGhhaSBE
+aWdpdGFsIElEIENBIEczMSgwJgYDVQQKDB9UaGFpIERpZ2l0YWwgSUQgQ29tcGFueSBMaW1pdGVk
+MQswCQYDVQQGEwJUSDAeFw0xNzA4MTAwOTUxNTlaFw0xODA4MTAwOTUxNTlaMIGQMQswCQYDVQQG
+EwJUSDEWMBQGA1UEYQwNMDEwNTU0MTA2OTIzNzFpMGcGA1UEAwxg4Lia4Lij4Li04Lip4Lix4LiX
+IOC4quC4leC4o+C4teC4oSDguYTguK0u4LiX4Li1LiDguITguK3guJnguIvguLHguKXguJXguLTg
+uYnguIcg4LiI4Liz4LiB4Lix4LiUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiDI1
+L7Ls4xJpKd2sF1a62nhRRETFY5ybDzlcXm2scULpF4NoOhPJx1Exzph5VePd5zO1QGsvumCUqrbY
+MUR5lvWz35DhsfWzEHJup7081lucz2LDct9mvg36Rf6nXH9dgt/7GqJcaSFADKoQEqHEkPKj+Jjq
+0HeVuBzueJFvXdS/lO5zDD4DbVznTA9gPcFkRkGWuWetAt7BEQphKdvaK3E2bLRFVDZnri2YH4In
+j15SoofJ6JX81LNbQtX5gUBuhlMFwRWzgSqOgdiZt5Y4kGntSnzufjuT+dHt+s31I5ror5p4kWQD
+cwZ/WjfVNm14yaRPjIsRGshH2p15UGRQXwIDAQABo4ICcjCCAm4wgZAGCCsGAQUFBwEBBIGDMIGA
+MEcGCCsGAQUFBzAChjtodHRwOi8vd3d3LnRoYWlkaWdpdGFsaWQuY29tL2Rvd25sb2FkL2NlcnQv
+VERJRCUyMENBLUczLmNlcjA1BggrBgEFBQcwAYYpaHR0cDovL3d3dy50aGFpZGlnaXRhbGlkLmNv
+bS90ZGlkY2FnM29jc3AwHQYDVR0OBBYEFJQmsKbCrK/diRnmnmZxjflWstpuMAwGA1UdEwEB/wQC
+MAAwHwYDVR0jBBgwFoAUR3wLSxAX4n2AkdXBQKpTCyi3L0gwGgYDVR0gAQH/BBAwDjAMBgpghXwB
+AQIBzhEBMIH+BgNVHR8EgfYwgfMwgfCggZCggY2GgYpodHRwOi8vd3d3LnRoYWlkaWdpdGFsaWQu
+Y29tL3RkaWRjYWczY3JsL2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOJTNkVGhhaStEaWdpdGFs
+K0lEK0NBK0czJTJjTyUzZFRoYWkrRGlnaXRhbCtJRCtDb21wYW55K0xpbWl0ZWQlMmNDJTNkVEii
+W6RZMFcxHjAcBgNVBAMMFVRoYWkgRGlnaXRhbCBJRCBDQSBHMzEoMCYGA1UECgwfVGhhaSBEaWdp
+dGFsIElEIENvbXBhbnkgTGltaXRlZDELMAkGA1UEBhMCVEgwDgYDVR0PAQH/BAQDAgXgMF4GA1Ud
+EQRXMFWBJmNoYWxhZC50ZWNoYXJ1YW5ncmFzc2FtZWVAc3RyZWFtLmNvLnRopCswKTEnMCUGA1UE
+AwweU3RyZWFtIEkuVC4gQ29uc3VsdGluZyBMaW1pdGVkMA0GCSqGSIb3DQEBCwUAA4ICAQBF8Qf0
+oATI84ayLCEhoNyBeb7goMj1cpjT3uVwk2qSRjDLsLX4erY+xyqAQ+c60NTEOUdRwRP3qRF738tX
+EG5x68EtRx2Ts0v2lf3TfE/6XYXQMbKPsw2BhODTyDVO/zXs8k6tEc002npJr9X6HXhZj3cyu+qz
+epbsYRSJ5bG14RmMuDA3YnzsXDIrpEkGTLOvLvch5lEclca66E+v2oMlLpxgYGB759j5Iag2IoTW
+Mi98Ch8G7rMIq4ziCT6wWvwXTh2x/3ynWjBqIz152sVZapt3nh8kOzxAl5FG7hdXYHdsmYeEtyJv
+piINxO6WggcTQ1MMZXyRvTuVgwjTV84QkE1cA+DV/E7Lew47dFpOW3a2RdCG+DI9jEZCq/Yxl07O
+Hg29iFuCrFznp+M+Irj1qWssegsxIrmi8ScIHl9cirQsFfMBbGcLAjdBHlRnuQ0GMmaK5X0bnI0v
+8n8hFFOJkKbkC0Aw8AekOwZOcc6WwbCPt5LzJmNdPC5PVYTj5QfTsQlTWACiVF7ueZuRTUeZCdBn
+uKDr1VGUnWQYdwUWlF2Zchjsmzjz81CZRRSjR6ctyPXQUsiyS++2nnoFw4y+0BVcTBdVx4/lb1kR
+mU9467oN45GqPKLGEjWNxufmKAkoQq79OThVI/uFj2KyYj1oDoEkoh6Ugs1idbxVI7ooig==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-7aead2ed-4acd-4fe3-8d50-f7a849717978"><xades:SignedProperties Id="xmldsig-7aead2ed-4acd-4fe3-8d50-f7a849717978-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2018-06-21T17:58:50.369+07:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></ds:DigestMethod><ds:DigestValue>rYYo69WPC+chv8rc5jQk7iQx4AmGgp8+SOBdThPLRSxtiSlV80fercChFNS1sgu+Pa4L2pachcng
+IEtGILYhhg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=TH,O=Thai Digital ID Company Limited,CN=Thai Digital ID CA G3</ds:X509IssuerName><ds:X509SerialNumber>1698148589747259459</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></rsm:TaxInvoice_CrossIndustryInvoice>

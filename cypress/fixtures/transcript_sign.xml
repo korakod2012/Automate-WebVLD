@@ -1,0 +1,1109 @@
+<tc:Transcript xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentsTechnicalSpecification:2" xmlns:qt="urn:etda:teda:data:QualifiedDataType:1" xmlns:tc="urn:etda:teda:documentation:Transcript:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:etda:teda:documentation:Transcript:1 file:../schema/Transcript.xsd">
+
+    <tc:TranscriptContext>
+        <tc:OID>2.16.764.1.4.1.1.8.1.1</tc:OID>
+        <tc:Version>2.0</tc:Version>
+        <tc:TranscriptID>20201105031204</tc:TranscriptID>
+        <tc:Name>ใบประมวลผลการศึกษาของมหาวิทยาลัย</tc:Name>
+        <tc:TypeCode>01</tc:TypeCode>
+        <tc:IssueDateTime>2020-11-05T15:12:04</tc:IssueDateTime>
+        <tc:Language>TH</tc:Language>
+        <tc:Status>Complete</tc:Status>
+    </tc:TranscriptContext>
+    <tc:Student>
+        <tc:DataSubjectID schemeID="StudenID">573050718-6</tc:DataSubjectID>
+        <tc:DataSubjectID schemeID="NIDN">1350100391716</tc:DataSubjectID>
+        <tc:NamePrefix languageID="th">นาย</tc:NamePrefix>
+        <tc:NamePrefix languageID="en">Mr.</tc:NamePrefix>
+        <tc:GivenName languageID="th">โรจน์ศักดิ์</tc:GivenName>
+        <tc:GivenName languageID="en">ROADSAK</tc:GivenName>
+        <tc:FamilyName languageID="th">นางาม</tc:FamilyName>
+        <tc:FamilyName languageID="en">NANGAM</tc:FamilyName>
+        <tc:Gender>1</tc:Gender>
+        <tc:BirthDate>1996-05-01T00:00:00.0</tc:BirthDate>
+        <tc:Nationality>TH</tc:Nationality>
+        <tc:ResidentCountryOrTerritoryCode>TH</tc:ResidentCountryOrTerritoryCode>
+        <tc:DateOfAdmission>2020-05-04T18:13:51.0</tc:DateOfAdmission>
+        <tc:FacultyName>คณะศึกษาศาสตร์</tc:FacultyName>
+        <tc:ProgramContext>
+            <tc:ProgramID>310503302156</tc:ProgramID>
+            <tc:ProgramName>ศึกษาศาสตรบัณฑิต</tc:ProgramName>
+            <tc:Major>วิทยาศาสตร์ศึกษา เอกเดี่ยวชีววิทยา</tc:Major>
+            <tc:Degree>วิทยาศาสตร์ศึกษา เอกเดี่ยวชีววิทยา</tc:Degree>
+        </tc:ProgramContext>
+        <tc:CreditsTranferred>0</tc:CreditsTranferred>
+        <tc:PreviousCertificate>มัธยมศึกษา</tc:PreviousCertificate>
+
+    </tc:Student>
+    <tc:Organization>
+        <tc:OrganizationName>มหาวิทยาลัยทดสอบ </tc:OrganizationName>
+        <tc:SchoolLevel>อุดมศึกษา</tc:SchoolLevel>
+        <tc:Registrar>
+            <tc:Title>นายทะเบียน</tc:Title>
+            <tc:NamePrefix>รองศาสตราจารย์</tc:NamePrefix>
+            <tc:Name>ประพันธ์ศักดิ์ ฉวีราช</tc:Name>
+            <tc:RegistrarEmailAddress>chaveerach@test.t.e.s.t</tc:RegistrarEmailAddress>
+        </tc:Registrar>
+    </tc:Organization>
+
+    <tc:Course>
+        <tc:CourseNumber>000101</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ภาษาอังกฤษเพื่อการสื่อสาร</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ENGLISH FOR COMMUNICATION</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000102</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ภาษาอังกฤษทางวิชาการ 1</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ENGLISH FOR ACADEMIC PURPOSE I (EAP I)</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>9</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000103</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ภาษาอังกฤษทางวิชาการ 2</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ENGLISH FOR ACADEMIC PURPOSES II (EAP II)</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>4.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000130</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ทักษะการรู้สารสนเทศ</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">INFORMATION LITERACY SKILLS</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>4.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000132</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ชีวิตกับสุนทรียะ</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">LIFE AND AESTHETICS</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>9</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000155</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">พันธะทางสังคมของพลเมือง</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">CIVIC SOCIAL ENGAGEMENT</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>10.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000157</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">พลเมืองโลกในกระแสโลกาภิวัตน์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">CITIZENSHIP AND GLOBALIZATION</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000160</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">คอมพิวเตอร์และเทคโนโลยีสารสนเทศขั้นพื้นฐาน</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BASIC COMPUTER AND INFORMATION TECHNOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>0</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>S</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>0</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2561</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000162</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ชีวิตกับเทคโนโลยีสมัยใหม่</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">LIFE AND MODERN TECHNOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>10.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000170</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การคิดขั้นสูงทางด้านคณิตศาสตร์และวิทยาศาสตร์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">HIGHER-ORDER THINKING IN MATHEMATICS AND SCIENCES</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>000172</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ชีวิตกับสิ่งแวดล้อม</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">LIFE AND ENVIRONMENT</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232110</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ธรรมชาติของวิทยาศาสตร์และเทคโนโลยี</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">NATURE OF SCIENCE AND TECHNOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232130</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การคำนวณเชิงวิทยาศาสตร์ระดับโรงเรียน</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">SCIENTIFIC COMPUTING IN SCHOOL SCIENCE</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>4</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>A</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>12</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232314</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">มโนมติชีววิทยาในวิทยาศาสตร์ระดับโรงเรียน</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BIOLOGY CONCEPTS IN SCHOOL SCIENCE</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>10.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232333</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">พิสัยในการสอนและการเรียนรู้ชีววิทยา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">DOMAIN OF TEACHING AND LEARNING BIOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>9</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232421</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การจัดการเรียนรู้วิทยาศาสตร์สำหรับการศึกษาขั้นพื้นฐานระดับประถมศึกษา
+        </tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">SCIENCE LEARNING MANAGEMENT FOR BASIC EDUCATION IN PRIMARY LEVEL
+        </tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>9</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232425</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การจัดการเรียนรู้มโนมติชีววิทยา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BIOLOGY CONCEPT LEARNING MANAGEMENT</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>10.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232427</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การจัดการเรียนรู้มโนมติเกี่ยวกับโลก ดาราศาสตร์และอวกาศ</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">EARTH SCIENCE,ASTRONOMY AND SPACE CONCEPT LEARNING MANAGEMENT</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>10.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232429</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการทดลองผ่านคอมพิวเตอร์ในการสอนวิทยาศาสตร์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">COMPUTERIZED LABORATORY PRACTICE IN SCIENCE TEACHING</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>10.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232430</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การวิจัยเพื่อพัฒนากระบวนการคิดและการเรียนรู้วิทยาศาสตร์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">RESEARCH FOR DEVELOPMENT OF THINKING AND LEARNING IN SCIENCE</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>9</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>232491</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">สัมมนาทางวิทยาศาสตร์ศึกษา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">SEMINAR IN SCIENCE EDUCATION</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>3.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241104</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ภาษาไทยสำหรับครู</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">THAI LANGUAGE FOR TEACHERS</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>9</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241105</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">บุคลิกภาพและการสื่อสารสำหรับครู</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">PERSONALITY AND COMMUNICATION FOR TEACHERS</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>4</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>A</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>8</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241106</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">พัฒนาการมนุษย์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">HUMAN DEVELOPMENT</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>4</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>A</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>8</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241206</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">จิตวิทยาการศึกษา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">EDUCATIONAL PSYCHOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>9</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241207</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การแนะแนวในโรงเรียน</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">GUIDANCE IN SCHOOL</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241208</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">นวัตกรรมและเทคโนโลยีสารสนเทศเพื่อการเรียนรู้</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">INNOVATION AND INFORMATION TECHNOLOGY FOR LEARNING</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>4</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>A</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>12</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241209</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปรัชญาการศึกษาขั้นแนะนำ</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">INTRODUCTION TO EDUCATIONAL PHILOSOPHY</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241210</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">กิจกรรมนักเรียนและกิจกรรมเพื่อสังคมและสาธารณประโยชน์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">STUDENTS ACTIVITIES AND ACTIVITIES FOR SOCIAL AND CHARITY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>2</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241304</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การวัดและประเมินผลการศึกษา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">EDUCATIONAL MEASUREMENT AND EVALUATION</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>6</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241305</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การวิจัยทางการศึกษา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">EDUCATIONAL RESEARCH</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>6</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241306</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การพัฒนาหลักสูตร</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">CURRICULUM DEVELOPMENT</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>6</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241307</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">กระบวนการจัดการเรียนรู้</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">LEARNING PROCESS</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>10.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241308</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">จรรยาวิชาชีพครู</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ETHICS FOR TEACHING PROFESSION</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241331</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ประสบการณ์วิชาชีพครู 1</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">TEACHING PROFESSION EXPERIENCE 1</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>6</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241403</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ภาษาอังกฤษสำหรับครู</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ENGLISH FOR TEACHER</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>6</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241404</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การบริหารจัดการสถานศึกษา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">SCHOOL MANAGEMENT</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>9</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241405</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การเรียนรวม</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">INCLUSIVE EDUCATION</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241431</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ประสบการณ์วิชาชีพครู 2</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">TEACHING PROFESSION EXPERIENCE II</tc:CourseTitle>
+        <tc:CourseCreditValue>2</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>2</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241531</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การปฏิบัติการสอนในสถานศึกษา 1</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">SCHOOL INTERNSHIP I</tc:CourseTitle>
+        <tc:CourseCreditValue>6</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>6</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>21</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2561</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>241532</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">การปฏิบัติการสอนในสถานศึกษา 2</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">SCHOOL INTERNSHIP II</tc:CourseTitle>
+        <tc:CourseCreditValue>6</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>6</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>12</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2561</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>300304</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">หลักมูลการระบุรูปพรรณส่วนบุคคล</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">FUNDAMENTAL OF PERSONAL IDENTIFICATION</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>4</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>A</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>12</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>300305</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">สารพิษชีวภาพทางนิติวิทยาศาสตร์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BIOTOXINS IN FORENSIC SCIENCE</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>4</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>A</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>12</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311101</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ชีววิทยา 1</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BIOLOGY I</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>4.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311102</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการชีววิทยา 1</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BIOLOGY LABORATORY I</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>2.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311103</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ชีววิทยา 2</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BIOLOGY II</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311104</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการชีววิทยา 2</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BIOLOGY LABORATORY II</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>3.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311244</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">พันธุศาสตร์เบื้องต้น</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ELEMENTARY GENETICS</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>3</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311245</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการพันธุศาสตร์เบื้องต้น</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ELEMENTARY GENETICS LABORATORY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>2</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311274</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">สัตววิทยา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ZOOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>3</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311275</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการสัตววิทยา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ZOOLOGY LABORATORY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>1.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311301</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">เทคนิคทางชีววิทยาสำหรับศึกษาศาสตร์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">TECHNIQUE IN BIOLOGY FOR EDUCATION</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>9</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311310</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">สรีรวิทยาของพืช</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">PLANT PHYSIOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>4.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311311</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการสรีรวิทยาของพืช</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">PLANT PHYSIOLOGY LABORATORY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>2.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311370</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">สรีรวิทยาของสัตว์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ANIMAL PHYSIOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>0</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>0</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>F</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>0</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311370</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">สรีรวิทยาของสัตว์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ANIMAL PHYSIOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>4.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2560</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>311371</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการสรีรวิทยาของสัตว์</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ANIMAL PHYSIOLOGY LABORATORY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>2</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>312106</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการเคมีทั่วไป</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">GENERAL CHEMISTRY LABORATORY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>4</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>A</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>4</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>312108</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">เคมีหลักมูล</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">FUNDAMENTAL CHEMISTRY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>312112</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">เคมีอินทรีย์พื้นฐาน</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BASIC ORGANIC CHEMISTRY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>6</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>312113</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการเคมีอินทรีย์พื้นฐาน</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BASIC ORGANIC CHEMISTRY LABORATORY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>2.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>314102</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">คณิตศาสตร์สำหรับวิทยาศาสตร์สุขภาพ</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">MATHEMATICS FOR HEALTH SCIENCE</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>4.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>315102</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ฟิสิกส์ทั่วไป 1</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">GENERAL PHYSICS I</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>4.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>315181</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการฟิสิกส์ทั่วไป 1</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">GENERAL PHYSICS LABORATORY I</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>2.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2557</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>317211</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">จุลชีววิทยาทั่วไป</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">GENERAL MICROBIOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>7.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>317212</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการจุลชีววิทยาทั่วไป</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">GENERAL MICROBIOLOGY LABORATORY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>3</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>B</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>3</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2558</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>318305</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ชีวเคมี</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BIOCHEMISTRY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>6</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>318306</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการชีวเคมี</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">BIOCHEMISTRY LABORATORY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>2.5</tc:CoursePointEarned>
+        <tc:SemesterName>First Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>319101</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">นิเวศวิทยา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ECOLOGY</tc:CourseTitle>
+        <tc:CourseCreditValue>3</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>3</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>1</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>D</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>3</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:Course>
+        <tc:CourseNumber>319102</tc:CourseNumber>
+        <tc:CourseTitle languageID="TH">ปฏิบัติการนิเวศวิทยา</tc:CourseTitle>
+        <tc:CourseTitle languageID="EN">ECOLOGY LABORATORY</tc:CourseTitle>
+        <tc:CourseCreditValue>1</tc:CourseCreditValue>
+        <tc:CourseCreditEarned>1</tc:CourseCreditEarned>
+        <tc:CourseAcademicGrade>2.5</tc:CourseAcademicGrade>
+        <tc:CourseAcademicGradeText>C+</tc:CourseAcademicGradeText>
+        <tc:CoursePointEarned>2.5</tc:CoursePointEarned>
+        <tc:SemesterName>Second Semester</tc:SemesterName>
+        <tc:Year>2559</tc:Year>
+    </tc:Course>
+
+    <tc:AcademicSummary>
+        <tc:SemesterSummary>
+            <tc:SemesterName>First Semester</tc:SemesterName>
+            <tc:Year>2557</tc:Year>
+            <tc:SemesterCreditValue>22</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>22</tc:SemesterCreditEarned>
+            <tc:SemesterGPA>2.43</tc:SemesterGPA>
+        </tc:SemesterSummary>
+
+        <tc:SemesterSummary>
+            <tc:SemesterName>Second Semester</tc:SemesterName>
+            <tc:Year>2557</tc:Year>
+            <tc:SemesterCreditValue>21</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>21</tc:SemesterCreditEarned>
+            <tc:SemesterGPA>3.21</tc:SemesterGPA>
+        </tc:SemesterSummary>
+
+        <tc:SemesterSummary>
+            <tc:SemesterName>First Semester</tc:SemesterName>
+            <tc:Year>2558</tc:Year>
+            <tc:SemesterCreditValue>20</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>20</tc:SemesterCreditEarned>
+             <tc:SemesterGPA>2.48</tc:SemesterGPA>
+        </tc:SemesterSummary>
+
+        <tc:SemesterSummary>
+            <tc:SemesterName>Second Semester</tc:SemesterName>
+            <tc:Year>2558</tc:Year>
+            <tc:SemesterCreditValue>22</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>22</tc:SemesterCreditEarned>
+            <tc:SemesterGPA>2.61</tc:SemesterGPA>
+        </tc:SemesterSummary>
+
+        <tc:SemesterSummary>
+            <tc:SemesterName>First Semester</tc:SemesterName>
+            <tc:Year>2559</tc:Year>
+            <tc:SemesterCreditValue>20</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>20</tc:SemesterCreditEarned>
+            <tc:SemesterGPA>2.65</tc:SemesterGPA>
+         </tc:SemesterSummary>
+
+        <tc:SemesterSummary>
+            <tc:SemesterName>Second Semester</tc:SemesterName>
+            <tc:Year>2559</tc:Year>
+            <tc:SemesterCreditValue>19</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>22</tc:SemesterCreditEarned>
+            <tc:SemesterGPA>2.21</tc:SemesterGPA>
+        </tc:SemesterSummary>
+
+        <tc:SemesterSummary>
+            <tc:SemesterName>First Semester</tc:SemesterName>
+            <tc:Year>2560</tc:Year>
+            <tc:SemesterCreditValue>19</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>19</tc:SemesterCreditEarned>
+            <tc:SemesterGPA>3.18</tc:SemesterGPA>
+         </tc:SemesterSummary>
+
+        <tc:SemesterSummary>
+            <tc:SemesterName>Second Semester</tc:SemesterName>
+            <tc:Year>2560</tc:Year>
+            <tc:SemesterCreditValue>16</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>16</tc:SemesterCreditEarned>
+            <tc:SemesterGPA>2.38</tc:SemesterGPA>
+         </tc:SemesterSummary>
+
+        <tc:SemesterSummary>
+            <tc:SemesterName>First Semester</tc:SemesterName>
+            <tc:Year>2561</tc:Year>
+            <tc:SemesterCreditValue>6</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>6</tc:SemesterCreditEarned>
+            <tc:SemesterGPA>3.5</tc:SemesterGPA>
+        </tc:SemesterSummary>
+
+        <tc:SemesterSummary>
+            <tc:SemesterName>Second Semester</tc:SemesterName>
+            <tc:Year>2561</tc:Year>
+            <tc:SemesterCreditValue>9</tc:SemesterCreditValue>
+            <tc:SemesterCreditEarned>9</tc:SemesterCreditEarned>
+            <tc:SemesterGPA>2</tc:SemesterGPA>
+        </tc:SemesterSummary>
+    </tc:AcademicSummary>
+    <tc:AdditionalInformation>
+        <tc:InfomationNote>
+            <tc:Subject>การฝึกประสบการณ์</tc:Subject>
+            <tc:Content>ภาคการศึกษาต้น 2561 - ทดสอบ ผ่าน</tc:Content>
+        </tc:InfomationNote>
+        <tc:InfomationNote>
+            <tc:Subject>การฝึกประสบการณ์</tc:Subject>
+            <tc:Content>ภาคการศึกษาปลาย 2561 - ทดสอบ ผ่าน</tc:Content>
+        </tc:InfomationNote>
+        <tc:InfomationNote>
+            <tc:Subject>English Proficiency</tc:Subject>
+            <tc:Content>TEST ENGLISH PROFICIENCY TEST ( COMPLETED ON MARCH 31, 2018 )</tc:Content>
+        </tc:InfomationNote>
+    </tc:AdditionalInformation>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-3b9e2366-2a37-4def-bd54-00e9fab5fdb7">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"></ds:SignatureMethod>
+<ds:Reference Id="xmldsig-3b9e2366-2a37-4def-bd54-00e9fab5fdb7-ref0" URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></ds:DigestMethod>
+<ds:DigestValue>T0EUF4qhEiLiCm7G5qiSQ6nQXgevBONfRQe+8dBnzmeBvtrqSd5Aw+TvC2jjRzT1t1Nyv0X9YPTw
+QaYAcYzk8A==</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-3b9e2366-2a37-4def-bd54-00e9fab5fdb7-signedprops">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></ds:DigestMethod>
+<ds:DigestValue>xiXuuIDwNQtAW6u/5G+qiRczjvqCYvh2IZ2gn3EdUzsgHa/n06nyfI4T37EZ0tNTJygApMz6CjFH
+THSHDTkOMQ==</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-3b9e2366-2a37-4def-bd54-00e9fab5fdb7-sigvalue">
+cuc3sjCkkVp7nkpqu81SHjcbo6Tjw7cteRxV9PtYYW6V5U0feryYB7sR3/gFBXyE0B9KzCeDZz48
+JWlCOyQT55HwWWv57eXF4XOycMofg3cD+ZaWENurV9HwYjLmbCwiT35ziK0eoJr8xyUhg84ou47l
+O1Zl8wONEkjU8/6bTsWFXEHbP5SfR/A8zMAnZd8clXW6z4y9affQFhUJDyf0uOcgpO8z0mQ7WwVN
+r+cFDQChmQfq9WC+ROviuhUHxWqUNdHB2f+q5gZD6z17T9NlgrgZ+OvBIUSw+O/xMXO4wCUSCBFr
+Iw3/xUuVyYN0sOz3GlGmp9FeqAkp9oNI2isHSA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEZDCCA0ygAwIBAgIITE3KNMM/ND0wDQYJKoZIhvcNAQEMBQAwFTETMBEGA1UEAwwKRVREQSBD
+QSBHMjAeFw0yMDEyMTgwOTQ3NTlaFw0yMjEyMTgwOTQ3NTlaMIGsMRYwFAYDVQQDDA13ZWJWTERf
+c2lnbl8xMRIwEAYDVQQFEwl3ZWJ2bGQgRE4xGTAXBgNVBCoMEHdlYnZsZCBGaXJzdE5hbWUxGDAW
+BgNVBAQMD3dlYnZsZCBMYXN0TmFtZTEVMBMGA1UEDAwMd2VidmxkIFRpdGxlMRIwEAYDVQQLDAl3
+ZWJ2bGQgT1UxETAPBgNVBAoMCHdlYnZsZCBPMQswCQYDVQQGEwJUSDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAOYZjv2J/3TIpiVyFtdIyA4P8/Q9nlbzNQSVDSk8y5qSaJwcjU3BQK57
+3xVZ9Xl7YK97Vmgxpf2nyOBlqIBSXCNvTLvnslNVdDPoLUvcdVPmCnwn9+cR6EiDtoqo44jr/qbI
+xGHc5xpm5MXLIIjuyfjfvPbkMPVIrKLP66w6BX8nNF7AmUPGHrRYavWySBjFkBHUO3UUYr2CYfk0
+seRCdvSIfSEjqe5zQC3bka3UwoGWAFNeZp5NyUnoLnWqgkubIr0oJNw3NEfSxdWI8MAZdv5HzD21
+qWDpu+Vd5Q/gceImS7p4blObIo1R6zIOLaMNcVH1dl/81aYFoyWYJxOzT0sCAwEAAaOCAR4wggEa
+MH4GCCsGAQUFBwEBBHIwcDA9BggrBgEFBQcwAoYxaHR0cDovL3JlcG8tdGVzdC50ZWRhLnRoL2Nl
+cnQvRVREQUNBRzIuY2FjZXJ0LmNydDAvBggrBgEFBQcwAYYjaHR0cDovL3JlcG8tdGVzdC50ZWRh
+LnRoL29jc3BldGRhZzIwHQYDVR0OBBYEFPEWq+uI7lpo6o2silbAC354OOqLMAwGA1UdEwEB/wQC
+MAAwHwYDVR0jBBgwFoAUWUdtSMA2SPAT9DBEXT0PYEMFFl4wOgYDVR0fBDMwMTAvoC2gK4YpaHR0
+cDovL3JlcG8tdGVzdC50ZWRhLnRoL2NybC9FVERBQ0FHMi5jcmwwDgYDVR0PAQH/BAQDAgXgMA0G
+CSqGSIb3DQEBDAUAA4IBAQAILaVbwtctXxfcxTBoka+Ec4r5lIFi9dV+RgEbvgU/NYEmUFvqOwaL
+g4CkK3RENkSFdWBoCtMLjrNITxdZDrpAia9lHpXZWAvhM4IYsqPyfKgyMqndZBFU8pl6hRLe5G6h
+ZaSURhHMjJXVCTvecLX2wVSsf0RyswSs67xhmnVOrZowwNJHPY/ZLBL+PvhNNJS8AR4kJvFRAwPc
+ARaphtSCB3mr9MMZckTiTCSMR6pfPid63ZdA68xFtBMHXYofRblKPW0r0IBd7EfLBJ8GdsvSmmSY
+A8D3GEoHnW0EZLHzBySWRrVdE2Hf+YK2PzVR/PK0uHRmBFOC3nn/laHmFI5R
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-3b9e2366-2a37-4def-bd54-00e9fab5fdb7"><xades:SignedProperties Id="xmldsig-3b9e2366-2a37-4def-bd54-00e9fab5fdb7-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2021-02-10T15:35:07.402+07:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></ds:DigestMethod><ds:DigestValue>SAEbwrqxHM4M4SUrPQNley4FO0TOfCvp98AnLI/0/rT1rm1U7NW37D19GJtlyRdkhmnLg6dBI005
+qAX37DmSjA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=ETDA CA G2</ds:X509IssuerName><ds:X509SerialNumber>5498273048052053053</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></tc:Transcript>
