@@ -3249,7 +3249,7 @@ describe("This automate use to regression WebVLD-UAT", { retries: 2 }, () => {
           webVLD_PO.clickOn_SubmitBtn();
           webVLD_PO.confirmTestFile(fileName);
 
-          //set new
+          //set new test git
           cy.get("#pdfSignatureStatusUndefined").should(
             "contain.text",
             "ไม่พบข้อมูลสถานะ"
