@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "@bahmutov/cy-api": "^1.4.3",
-    "cypress": "^8.7.0",
+    "cypress": "^9.2.1",
     "cypress-file-upload": "^5.0.6",
     "cypress-xpath": "^1.6.2"
   },

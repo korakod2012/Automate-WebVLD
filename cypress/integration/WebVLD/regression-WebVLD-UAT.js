@@ -3312,4 +3312,67 @@ describe("This automate use to regression WebVLD-UAT", { retries: 2 }, () => {
       );
     }
   );
+
+  context(
+    "Scenario 39 : Make sure รองรับตัวอักขระ ภาษาไทยทุกตัว ก-ฮ  และ สระทุกตัว ",
+    () => {
+      const fileName =
+        "กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ_กูกุกึๆะกัก๊ฯก็ก้ก๋ก่ก์กื.pdf";
+
+      before(() => {
+        webVLD_PO.visitHomePage();
+      });
+
+      it(
+        "Summary should be:\n\n " +
+          "PDF-Digital Signature: กรุณาตรวจสอบ \n" +
+          "PDF-Timestamp: ไม่พบข้อมูลสถานะ",
+        () => {
+          webVLD_PO.addConfigFor_PDF(fileName);
+          webVLD_PO.clickOn_SubmitBtn();
+          webVLD_PO.confirmTestFile(fileName);
+          webVLD_PO.pdfSignatureStatusWarning("กรุณาตรวจสอบ");
+          webVLD_PO.pdfTimestampStatusUndefined("ไม่พบข้อมูลสถานะ");
+        }
+      );
+
+      it(
+        "PDF-Signature detail should be:\n\n " +
+          "ผลตรวจสอบลายมือชื่อดิจิทัล: กรุณาตรวจสอบ \n" +
+          "สถานะ: มีบางส่วนของเอกสารไม่ถูกลงลายมือชื่อดิจิทัล/ประทับรับรองเวลา \n" +
+          "ประเภทลายมือชื่อดิจิทัล: Approval signature \n" +
+          "ผลการตรวจสอบประเภทลายมือชื่อดิจิทัล: ลายมือชื่อดิจิทัลประเภทอนุมัติถูกต้อง",
+        () => {
+          webVLD_PO.clickToExpand_pdfDigitalSignatureResult(0);
+          webVLD_PO.pdfDigitalSignatureResult_signatureWarning("กรุณาตรวจสอบ");
+          webVLD_PO.pdfDigitalSignatureResultStatusWarning(
+            "มีบางส่วนของเอกสารไม่ถูกลงลายมือชื่อดิจิทัล/ประทับรับรองเวลา"
+          );
+          cy.get(".card > :nth-child(1) > .row > :nth-child(22)").should(
+            "contain.text",
+            "Approval signature"
+          );
+          cy.get("#pdfDigitalSignatureTypeResultStatus").should(
+            "contain.text",
+            "ลายมือชื่อดิจิทัลประเภทอนุมัติถูกต้อง"
+          );
+        }
+      );
+
+      it(
+        "PDF E-Timestamp should be:\n\n " +
+          "ผลตรวจสอบการประทับรับรองเวลา: เอกสารยังไม่มีองค์ประกอบที่ระบบสามารถใช้ทำการตรวจสอบได้ \n" +
+          "สถานะ: เอกสารไม่มีลายมือชื่อดิจิทัล/การประทับรับรองเวลา หรือถูกลงลายมือชื่อดิจิทัล/ประทับรับรองเวลาด้วยรูปแบบที่ระบบยังไม่รองรับ",
+        () => {
+          webVLD_PO.clickToExpand_PDF_E_Timestamp();
+          webVLD_PO.pdfETimeStampResult_signatureUndefined(
+            "เอกสารยังไม่มีองค์ประกอบที่ระบบสามารถใช้ทำการตรวจสอบได้"
+          );
+          webVLD_PO.pdfETimeStampResultStatus(
+            "เอกสารไม่มีลายมือชื่อดิจิทัล/การประทับรับรองเวลา หรือถูกลงลายมือชื่อดิจิทัล/ประทับรับรองเวลาด้วยรูปแบบที่ระบบยังไม่รองรับ"
+          );
+        }
+      );
+    }
+  );
 });
